@@ -10,7 +10,21 @@ Lastly, an optimal color mapping algorithm based on Histogram Equalization is ut
 
 This repository only contains the implementation for the visualization program and another program for the extraction of streamlines.
 Velocity field datasets must be provides seperately in the Amira format.
- 
+
+## Pipeline
+The code performs the following 4 stages:
+1. Line Extraction
+2. Clustering
+3. Opacity Optimization
+4. Color Mapping
+
+<span>
+<img src="images/line_extraction.png" width="24%">
+<img src="images/clustered_lines.png" width="24%">
+<img src="images/opacity_optimized_lines.png" width="24%">
+<img src="images/color_optimized_lines.png" width="24%">
+</span>
+
 ## Requirements
 - Windows SDK
 - DirectX 11
