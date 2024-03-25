@@ -1,0 +1,12 @@
+.vs/
+code_samples/
+out/
+data/
+data_backup/
+pyscripts/
+distanceMatrix/
+CMakeCache.txt
+CMakeFiles/
+raw_data/DataSets_Backup
+raw_data/Transformer/raw_data
+raw_data/Transformer/build
